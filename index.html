@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Increíbles</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-4">
+        <h1>Bienvenido a mis Viajes Increíbles</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="#inicio">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#sobre-mi">Sobre mí</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#galeria">Galería</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#video">Video</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="container my-5">
+            <h2>Inicio</h2>
+            <p>Ven y descubre conmigo lo hermoso y fascinante de nuestra hermosa Colombia.</p>
+            <h3>Destinos populares</h3>
+            <ul>
+                <li>Cartago</li>
+                <li>Ginebra</li>
+                <li>Popayán</li>
+            </ul>
+        </section>
+
+        <section id="sobre-mi" class="container my-5">
+            <h2>Sobre mí</h2>
+            <p>Hola, soy un apasionado de los viajes. Me encanta explorar nuevos lugares y compartir mis experiencias. Acompáñame en este viaje!</p>
+            <h3>Experiencia</h3>
+            <ol>
+                <li>Monumento precolombino más significativo de los indios pubenenses, conocido hoy en día como El Morro de Tulcán.</li>
+                <li>La Casa del Virrey de Cartago</li>
+                <li>Museo del Vino Cava del Rancho</li>
+            </ol>
+        </section>
+
+        <section id="galeria" class="container my-5">
+            <h2>Galería</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/cartago.jpg" class="card-img-top" alt="Destino 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Cartago - Valle</h5>
+                            <p class="card-text">La Ciudad Del Sol.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/ginebra.webp" class="card-img-top" alt="Destino 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Ginebra - Valle</h5>
+                            <p class="card-text">La Tierra Del Mono Nuñez.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/popaya.jpg" class="card-img-top" alt="Destino 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Popayán</h5>
+                            <p class="card-text">La Ciudad Blanca.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="video" class="container my-5">
+            <h2>Video Destacado</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/Y9QTHbnhxKw" title="Popayán Es Encantadora ¡Conócela! - Turismo Colombia 2019 | Alcaldía de Popayán" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <a href="https://www.youtube.com/watch?v=Y9QTHbnhxKw" target="_blank" class="btn btn-danger btn-view-more">Ver más en YouTube</a>
+        </section>
+
+        <section id="contacto" class="container my-5">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta? ¡No dudes en contactarme!</p>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Viajes Increíbles. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

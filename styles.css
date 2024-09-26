@@ -1,0 +1,120 @@
+/* Estilos generales */
+body {
+    font-family: 'Pacifico', cursive; /* Fuente llamativa para el cuerpo */
+    background: linear-gradient(135deg, #a2dff7, #0fedaa); /* Gradiente suave */
+    color: #333; /* Color de texto general */
+    line-height: 1.6; /* Mejorar la legibilidad */
+    margin: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #283593; /* Color oscuro para el encabezado */
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Sombra para el encabezado */
+}
+
+/* Enlaces de navegación */
+nav .nav-link {
+    color: #ffffff; /* Color blanco para los enlaces */
+    transition: color 0.3s, transform 0.2s;
+    font-weight: 500; /* Peso de fuente más ligero */
+}
+
+nav .nav-link:hover {
+    color: #ffcc00; /* Color de hover */
+    transform: scale(1.1); /* Efecto de aumento */
+}
+
+/* Estilos de secciones */
+section {
+    background-color: white;
+    margin: 20px auto; /* Centrando secciones */
+    padding: 30px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra más intensa */
+    max-width: 800px; /* Ancho máximo de la sección */
+}
+
+/* Títulos */
+h2 {
+    font-family: 'Roboto Slab', serif; /* Fuente llamativa para títulos */
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #283593; /* Color de título elegante */
+    border-bottom: 2px solid #ff6f61; /* Línea debajo del título */
+    padding-bottom: 10px;
+    font-style: italic; /* Aplicar cursiva */
+}
+
+/* Cursiva para los h3 */
+h3 {
+    font-family: 'Roboto Slab', serif; /* Fuente llamativa para subtítulos */
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #ff6f61; /* Color para subtítulos */
+    font-style: italic; /* Aplicar cursiva */
+    padding-bottom: 10px;
+}
+
+/* Estilo del video */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background-color: #000;
+    border-radius: 10px;
+    margin: auto;
+    border: 4px solid #ff6f61; /* Borde alrededor del video */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Botones */
+.btn-view-more {
+    margin-top: 15px;
+    background-color: #ff6f61; /* Color vibrante para el botón */
+    border: none;
+    color: white; /* Texto blanco para el botón */
+    padding: 10px 20px;
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s, transform 0.2s;
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Para el botón */
+}
+
+.btn-view-more:hover {
+    background-color: #ffcc00; /* Color de hover para el botón */
+    transform: scale(1.05); /* Efecto de aumento */
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #283593; /* Color oscuro para el footer */
+    color: white;
+    padding: 10px 0;
+    text-align: center; /* Alinear texto al centro */
+}
+
+/* Espaciado en formularios */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Estilos específicos de la sección de video */
+#video {
+    background-color: #f8f9fa; /* Color de fondo suave para la sección de video */
+    padding: 30px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
